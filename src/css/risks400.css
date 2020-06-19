@@ -1,0 +1,10 @@
+
+@media (min-width:0px) and (max-width:400px){
+    .risksRowLabels{
+        font-size: .75em;
+    }
+    .risksRowPrices{  
+        font-size: .75em;
+    }
+    
+}

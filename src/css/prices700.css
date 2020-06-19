@@ -1,0 +1,14 @@
+
+@media (min-width:401px) and (max-width:700px){
+  .tickerTableQuotesDiv{
+    width: 70%;
+  }
+  .tickerRowLabels{
+    font-size: .75em;
+  }
+  .tickerRowPrices{
+    font-size: .75em;
+  }
+    
+    
+}

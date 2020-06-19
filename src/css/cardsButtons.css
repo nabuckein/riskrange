@@ -1,0 +1,25 @@
+.cardsButtonsContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.cardsButtons{
+    border:none;
+    border-radius: 5px;
+    background-color: darkslateblue;
+    height:28px;
+    color:white;
+    font-family: Cuprum;
+    font-size: 14px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top:20px;
+}
+.cardsButtons:hover{
+    background-color: rgb(91, 75, 233);
+
+}
+.cardsButtons:active{
+    color:darkslateblue;
+    background-color: darkgray;
+}

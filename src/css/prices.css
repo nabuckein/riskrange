@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.pricesTickerMainDiv{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.tickerTableQuotesDiv{
+  width: 100%;
+}
+.tickerTableQuotes{
+  width: 100%;
+}
+
+.tickerQuotesTitle{
+  font-size: 1.5em;
+  text-align: center;
+  font-family: Oswald-Light;
+}
+.tickerTableRow{
+  font-size: 1em;
+}
+.tickerRowLabels{
+  text-align: center;
+  font-family: Oswald-Light;
+}
+.tickerRowPrices{  
+  text-align: center;
+  font-family: Oswald-Light;
+}

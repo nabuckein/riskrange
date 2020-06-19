@@ -1,0 +1,43 @@
+@media (min-width:401px) and (max-width:700px){
+    .mainDiv{
+        width: 100%;
+        margin: 0px auto 0px auto;
+        justify-content: center;
+    }
+    .labelDiv{
+        height: 30px;
+        width:20%;       
+        
+    }
+    .labelText{
+        height: 30px;
+        font-size: 1.5em;
+        
+    }
+    .inputDiv{
+        height: 30px;
+        width: 20%;
+    }
+    .inputField{
+        height: 30px;
+        width: 90%;
+        
+    }
+    .buttonsDiv{        
+        width: 30%;
+    }
+    .submitButton{
+        width: 60px;
+        height: 30px;        
+        font-size: 1em;
+    }
+
+    .clearButton{
+        width: 60px;
+        height: 30px;
+        font-size: 1em;
+    }
+
+
+
+}

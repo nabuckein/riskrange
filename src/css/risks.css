@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.TableQuotesDiv{
+  width: 50%;
+}
+.risksTableQuotes{
+  width: 100%;
+}
+.risksMainDiv{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.risksQuotesTitle{
+  font-size: 1.5em;
+  text-align: center;
+  font-family: Oswald-Light;
+}
+.risksTableRow{
+  font-size: 1em;
+}
+.risksRowLabels{
+  text-align: center;
+  font-family: Oswald-Light;
+}
+.risksRowPrices{  
+  text-align: center;
+  font-family: Oswald-Light;
+}

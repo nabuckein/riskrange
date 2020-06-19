@@ -1,0 +1,211 @@
+@font-face{
+    font-family: Cuprum;
+    src: url('Cuprum-Regular.ttf');
+    }
+*{
+    box-sizing: border-box;    
+}
+.tickerDiv{
+    max-width: 900px;
+    background-color: white;
+    border-radius: 15px;
+    margin-left:auto;
+    margin-right: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.tickerInputDiv{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width:90%;
+    height: 90px;
+    background-color: lightseagreen;
+    border-radius: 10px;
+}
+.tickerInputForm{
+    width: 80%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.tickerInputLabelDiv{
+    width:20%;
+    text-align: right;  
+    margin-right: 20px;
+}
+.tickerInputFormDiv{
+    width:60%;
+}
+.tickerInputFieldDiv{
+    height:36px;
+    margin-right: 10px;
+    
+}
+.tickerInputSubmitButton{
+    border:none;
+    border-radius: 4px;
+    background-color: seagreen;
+    color: white;
+    font-size: 24px;
+    font-family: Cuprum;
+    height:36px;
+    margin-left: 10px;
+    outline: none;
+}
+.tickerInputSubmitButton:hover{
+    background-color: rgb(38, 194, 7);
+
+}
+.tickerLabel{
+    width: 100%;
+    color: white;
+    font-family: 'Cuprum';
+    font-size: 32px;  
+    margin-top:0px;
+    margin-bottom: 0px;
+    
+    height:36px;
+}
+.tickerInput{
+    width: 100%;
+    height:36px;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Cuprum';
+    outline: none;
+    background: transparent;
+    text-transform: uppercase;
+}
+.tickerInput::placeholder{
+    font-size: 30px;
+    color:white;
+}
+.tickerDisplayDiv{
+    
+    background-color: red;
+    
+}
+.leftArrowDiv{
+    background-color: royalblue;
+    height: 260px;
+    border-radius: 10px;
+    width:10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-arrow-left{
+    color: white;
+    font-size: 50px;
+}
+
+.rightArrowDiv{
+    background-color: royalblue;
+    height: 260px;
+    border-radius: 10px;
+    width:10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fa-arrow-right{
+    color: white;
+    font-size: 50px;
+}
+.tickerPriceDiv{
+    width:90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 260px;
+    margin-top: 20px;
+}
+.tickerTableQuotesDiv{
+    background-color: royalblue;
+    padding:15px;
+    border-radius: 10px;
+    height: 260px;
+    width: fit-content;
+}
+.tickerTableQuotes{
+    width: fit-content;
+}
+.tickerStatsRowTitle{
+    font-family: 'Cuprum';
+    text-align: center;
+    font-size: 26px;
+    color:white;
+    
+}
+.tickerStatsTitle{
+    width: fit-content;
+}
+.tickerTableRisksDiv{    
+    background-color: royalblue;
+    border-radius: 10px;
+    padding:15px;
+    height: 260px;
+    width: 50%;
+    
+}
+.tickerTableRiskHeaderTitle{
+   height: 60px;
+   vertical-align: top;
+}
+.tickerTableRisks{
+    width: 100%;
+}
+.tickerTableRow{    
+    height: 40px;
+}
+
+.tickerRowLabels{
+    font-family: 'Cuprum';
+    font-size: 24px;
+    color:white;
+    text-align: center;
+    width:fit-content;
+}
+.tickerTableRisksHeader{
+    font-family: 'Cuprum';
+    text-align: center;
+    font-size: 26px;
+    color:white;
+}
+.tickerRiskRowLabels{
+    font-family: 'Cuprum';
+    font-size: 24px;
+    color:white;
+    text-align: center;
+}
+.tickerRowPrices{
+    font-family: 'Cuprum';
+    font-size: 24px;
+    text-align: center;
+    width:fit-content;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.tickerRiskRowLabels{
+    width: 100px;
+}
+.tickerRiskRowPrices{
+    font-family: 'Cuprum';
+    font-size: 24px;
+    text-align: center;
+    width:fit-content;
+}
+

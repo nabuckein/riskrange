@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: Cuprum;
+    src: url('Cuprum-Regular.ttf');
+    }
+img {
+  max-width: 100%;
+  display: block;
+}

@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: Cuprum;
+    src: url('Cuprum-Regular.ttf');
+}
+@font-face{
+    font-family: Oswald-Light;
+    src: url('Oswald-Light.ttf');
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+body{
+    background-color: royalblue;
+}
+.mainTitleDiv{
+    display:flex;
+    width:100%;
+    justify-content: center;
+}
+.mainTitle{
+    color: white;
+    font-size: 50px;
+    font-family: Cuprum;
+    display:flex;
+
+}
+.tickerDiv{
+    width:80%;
+    height:5em;
+    background: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+.cardsDiv{    
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
